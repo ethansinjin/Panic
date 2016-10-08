@@ -17,11 +17,11 @@
     <!-- <script src="GMLIB/io.js"></script> -->
     <!-- <script src="GMLIB/media.js"></script> -->
     <!-- <script src="GMLIB/monitor.js"></script> -->
-    <!-- <script src="GMLIB/nav.js"></script> -->
+    <script src="GMLIB/nav.js"></script>
     <!-- <script src="GMLIB/phone.js"></script> -->
     <!-- <script src="GMLIB/ui.js"></script> -->
     <!-- <script src="GMLIB/util.js"></script> -->
-    <!-- <script src="GMLIB/voice.js"></script> -->
+    <script src="GMLIB/voice.js"></script>
 
   </head>
   <body>
@@ -31,10 +31,13 @@
 
         <!-- Remove all code inside #main and add your own! -->
         <h1>Panic</h1>
-        <p>
+        <p id="result">asdfasdf</p>
+        <!-- <p>
           Your VIN is: <span id="vin"></span>
-        </p>
-
+        </p> -->
+        <button id="navigationButton" onclick="navigateTest()">
+          Find nearest hospital
+        </button>
       </div>
     </div>
 
